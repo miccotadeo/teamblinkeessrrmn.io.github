@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Blinkee</title>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+            <meta charset="UTF-8">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <script src="https://kit.fontawesome.com./1165876da6.js" crossorigin="anonymous"></script>
+            <link href="style.css" rel="stylesheet" type="text/css">
+        </head>
+        <body>
+            <header>
+                <ul>
+                    <li><img src="logo.png"></li>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Custom Blinkees</a></li>
+                    <li><a href="#"><i class="material-icons">notifications_none</i></a></li>
+                    <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
+                    <li><a href="#"><i class="material-icons">menu</i></a></li>
+                </ul>
+            </header>
+            <div class="account">
+                <ul id="account-icon">
+                    <li><a href="#"><i class="material-icons">account_circle</i></a></li>
+                    <button>BLINKEE.COM</button>
+                </ul>
+            </div>
+            <div class="wrapper">
+                <div class="sidebar">
+                    <h2>Products</h2>
+                    <ul id="category">
+                        <li><a href="#"><i class="material-icons">palette</i> COLORS</a></li>
+                        <li><a href="#"><i class="material-icons">contrast</i> THEMES</a></li>
+                        <li><a href="#"><i class="material-icons">redeem</i> HOLIDAYS</a></li>
+                        <li><a href="#"><i class="material-icons">lightbulb</i> LIGHT UP LED</a></li>
+                        <li><a href="#"><i class="material-icons">sunny</i> GLOW-IN-THE-DARK</a></li>
+                        <li><a href="#"><i class="material-icons">star</i> NON-LIGHT-UP-FUN</a></li>
+                        <li><a href="#"><i class="material-icons">dashboard_customize</i> CUSTOM LIGHT UPS</a></li>
+                    </ul>
+                    <ul id="policy">
+                        <br>
+                        <br>
+                        <li><a href="#">SHIPPING POLICY</a></li>
+                        <Br>
+                        <br>
+                        <li><a href="#">RETURN POLICY</a></li>
+                        <br>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+            <section class="content">
+                    <div class="column-left">
+                        <h1><span id="safer">SAFER</span> <span id="than">THAN</span> <BR><span id="sparklers">SPARKLERS</span></h1>
+                        <p>START THE EXPERIENCE</p>
+                        <button>SHOP NOW</button>
+                    </div>
+                    <div class="column-right">
+                        <img src="img1.jpg" alt="illustration" class="content-img">
+                    </div>
+                </section>
+                <section class="ad">
+                    <h2>TODAY’S BEST DEALS FOR YOU</h2>
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <div class="slide first">
+                                <img src="ad1.png">
+                            </div>
+                            <div class="slide second">
+                                <img src="ad2.png">
+                            </div>
+                            <div class="slide third">
+                                <img src="ad3.png">
+                            </div>
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                            </div>
+                        </div>
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        var counter = 1;
+                        setInterval(function(){
+                            document.getElementById('radio' + counter).checked = true;
+                            counter++;
+                            if(counter > 3){
+                                counter = 1;
+                            }
+                        }, 5000);
+                    </script>
+                </section>
+                <section class="product">
+                    <h2>FEATURED PRODUCTS</h2>
+                    <div class="listproducts">
+                        <div class="item">
+                            <img src="item1.png">
+                            <h3>LED LIGHT KEYCHAIN</h3>
+                            <div class="price">₱45</div>
+                            <button class="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="item">
+                            <img src="item2.png">
+                            <h3>LED CHARM ON LANYARD</h3>
+                            <div class="price">₱150</div>
+                            <button class="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="item">
+                            <img src="item3.png">
+                            <h3>LIGHT HEART PIN</h3>
+                            <div class="price">₱89</div>
+                            <button class="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="item">
+                            <img src="item4.png">
+                            <h3>LED LIGHT NOODLE HEADBAND</h3>
+                            <div class="price">₱119</div>
+                            <button class="addcart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <footer>
+                        <div class="container">
+                            <div class="footer-content">
+                                <p>Magic Matt’s Brilliant Blinkys provides exciting glow in the dark toys, flashing jewelry, blinking pins, flashy blinkys and accessories for the twenty-first century.
+                                    Magic Matt is always on the lookout for the best glowing party supplies, fiber optic toys, and glow lights for parties.</p>
+                            </div>
+                            <div class="footer-content">
+                                <ul id="list">
+                                    <h3>QUICK LINKS</h3>
+                                    <li><a href="#">HOME</a></li>
+                                    <li><a href="#">ABOUT</a></li>
+                                    <li><a href="#">CONTACT</a></li>
+                                    <li><a href="#">CUSTOM BLINKEES</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-content">
+                                <ul id="socials">
+                                    <h3>FOLLOW US</h3>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i> @BLINKEES.OFFICIAL</a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i> BLINKEES-OFFICIALPAGE</a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i> BLINKEES-OFFICIALPAGE</a></li>
+                                    <li><a href="#"><i class="fa-regular fa-envelope"></i> Matt@Blinkee.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom-bar">
+                            <p>&copy; 2024 BLINKEE . All  rights reserved</p>
+                        </div>
+                    </footer>
+        </body>
+    </html>
